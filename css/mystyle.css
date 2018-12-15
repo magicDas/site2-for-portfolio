@@ -701,7 +701,7 @@ footer .develop a {
   display: block;
   margin: 0 auto;
   margin-top: 15px;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   background-color: #ff9933;
   color: #fff;
   padding: 14px 35px;

@@ -448,13 +448,14 @@
              <form action="send.php" method="POST">
                <div class="col-xs-12">
                 <input type="hidden" name="what" value="Бесплатная консультация">
-                 <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                 <input name="user-name" type="text" required placeholder="Имя..." class="form-control form_input">
                </div>
                <div class="col-xs-12">
                  <input name="phone" id="pone-7" type="text" required placeholder="Телефон..." class="form-control form_input">
                </div>
                <div class="col-xs-12">
-                 <button type="submit">Заказать</button>
+                <input type="submit" name="submit1" value="Заказать">
+                 <!-- <button type="submit">Заказать</button> -->
                </div>
              </form>
            </div>
@@ -480,7 +481,7 @@
              <form action="send.php" method="POST">
                <div class="col-xs-12">
                 <input type="hidden" name="what" value="Задан вопрос">
-                 <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                 <input name="user-name" type="text" required placeholder="Имя..." class="form-control form_input">
                </div>
                <div class="col-xs-12">
                  <input name="phone" id="pone-8" type="text" required placeholder="Телефон..." class="form-control form_input">
@@ -489,7 +490,8 @@
                  <textarea name="question" placeholder="Ваш вопрос..." id="" cols="30" rows="3"></textarea>
                </div>
                <div class="col-xs-12">
-                 <button type="submit">Задать вопрос</button>
+                <input type="submit" name="submit1" value="Задать вопрос">
+                <!--  <button type="submit">Задать вопрос</button> -->
                </div>
              </form>
            </div>
@@ -891,12 +893,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/wow.min.js"></script>
+    <script src="js/fotorama.js"></script>
+
     <script src="js/main.js"></script>
     
 
     <link rel="stylesheet" href="css/animate.css">    
-    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="css/fotorama.css">    
+    <!-- <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">  -->
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> -->
 
   </body>
 </html>
