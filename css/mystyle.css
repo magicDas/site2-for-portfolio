@@ -295,7 +295,7 @@ nav a > span:after {
   font-family: 'pfdintextcondprobold', sans-serif;
   text-transform: uppercase;
   border: 2px solid #ff9933;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .main_buttons #get_types:hover {
   background-color: #ff9933;
